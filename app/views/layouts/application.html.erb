@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MNBOOKSTORE</title>
+	<%= stylesheet_link_tag "scaffold" %>
+	<%= stylesheet_link_tag "depot" , :media => "all" %>
+	<%= javascript_include_tag :defaults %>
+	<%= csrf_meta_tag %>
+</head>
+<body id="store">
+	<div id="banner">
+		<%= @page_title || "MNBOOKSTORE" %>
+	</div>
+	<div id="columns">
+	<div id="side">
+		<a href="#">Home</a><br />
+		<a href="#">About</a><br />
+		<a href="#">News</a><br />
+		<a href="#">Contact</a><br />
+		<a href="#">Contact</a><br />
+		
+		
+	
+		</div>
+	</div>
+	
+
+
+	
+ <div id="main">
+<%= yield %>
+</div>
+</body>
+</html>

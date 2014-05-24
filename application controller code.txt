@@ -1,0 +1,18 @@
+	#application controller code
+	<!--<div id="cart">
+		<%= render @cart %>
+		<%= render(:partial => "cart" , :object => @cart) %>
+		</div>-->
+		
+			<!--<div id="cart">
+		<% if @cart.line_items.empty? %>
+			style="display: none"
+		<% end %>
+		
+	</div>-->
+	
+	<!--<% if @cart %>
+	<%= hidden_div_if(@cart.line_items.empty?, :id => "cart" ) do %>
+		<%= render @cart %>
+	<% end %>
+	<% end %>-->
